@@ -170,6 +170,7 @@
     <ClInclude Include="..\src\Notepad_plus_msgs.h" />
     <ClInclude Include="..\src\PluginDefinition.h" />
     <ClInclude Include="..\src\PluginInterface.h" />
+    <ClInclude Include="..\src\resource.h" />
     <ClInclude Include="..\src\Scintilla.h" />
   </ItemGroup>
   <ItemGroup>
