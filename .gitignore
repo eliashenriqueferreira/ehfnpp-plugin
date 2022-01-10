@@ -1,0 +1,5 @@
+*.db
+*.filters
+*.user
+.vs/*
+.x64/*
