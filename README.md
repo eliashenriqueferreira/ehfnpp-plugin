@@ -1,6 +1,9 @@
 # ehfnpp-plugin
 Timestamp, Line Separator Pattern and Underline Pattern
 
+My objective is to help my friends with tools for software development.
+
+
 This plugin was writed using a template of Don Ho
   https://notepad-plus-plus.org/community/category/5/plugin-development
 
