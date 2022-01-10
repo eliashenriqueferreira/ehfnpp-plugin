@@ -1,5 +1,5 @@
 *.db
 *.filters
 *.user
-.vs/*
-.x64/*
+vs2019/.vs
+vs2019/x64

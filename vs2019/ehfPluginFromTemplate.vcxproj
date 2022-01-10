@@ -62,7 +62,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -157,6 +157,9 @@
     <ClCompile>
       <PreprocessorDefinitions>UNICODE</PreprocessorDefinitions>
     </ClCompile>
+    <PostBuildEvent>
+      <Command>copy /Y F:\Proj\ccpp\ehfPluginFromTemplate\ehfnpp-plugin\vs2019\x64\Release\ehfNppPlugin.dll  F:\Proj\ccpp\ehfPluginFromTemplate\ehfnpp-plugin\vs2019\</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\NppPluginDemo.cpp" />
