@@ -34,3 +34,9 @@ Press ALT+L to underline a title:
       For Example:
       *=*=*=*=*=*=
 ```
+
+
+  TO-DO LIST
+  ----------
+  1 - The line separator pattern must starts with spaces or tabs in some casas.
+  
