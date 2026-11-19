@@ -3,3 +3,5 @@
 *.user
 vs2019/.vs
 vs2019/x64
+vs2026/.vs
+vs2026/ehfNppPlugin

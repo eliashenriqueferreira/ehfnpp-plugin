@@ -307,7 +307,7 @@ void ehfTheTimeStamp()
 */
 	wsprintf(sep_sup, TEXT("##══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════"));
 	wsprintf(sep_inf, TEXT("##0──────<010──────<020──────<030──────<040──────<050──────<060──────<070──────<080──────<090──────<100──────<110──────<120──────<130──────<140──────<150──────<160──────<170──────<180──────<190──────<"));
-	wsprintf(dateTime,TEXT("##  :%4.4d%2.2d%2.2d%2.2d%2.2d%2.2d #--# %s %s - Timestamp Ruller and Line Pattern Separator Developed by EHF."), st.wYear, st.wMonth, st.wDay, st.wHour, st.wMinute, st.wSecond, time, date);
+	wsprintf(dateTime,TEXT("##  :%4.4d%2.2d%2.2d%2.2d%2.2d%2.2d #--# %s %s - This timestamp line [ALT+T] - Line Pattern [ALT+INSERT] - Underline pattern [ALT+L]."), st.wYear, st.wMonth, st.wDay, st.wHour, st.wMinute, st.wSecond, time, date);
 
 	int currentEdit;
 	::SendMessage(nppData._nppHandle, NPPM_GETCURRENTSCINTILLA, 0, (LPARAM)& currentEdit);
